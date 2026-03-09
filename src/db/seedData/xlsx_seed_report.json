@@ -1,0 +1,3226 @@
+{
+  "summary": {
+    "realPersons": 1044,
+    "placeholderPersons": 1003,
+    "totalPersons": 2047,
+    "relationships": 2927,
+    "relationshipTypes": {
+      "spouse_of": 490,
+      "parent_of": 2437
+    },
+    "unresolvedOriginalCount": 1046,
+    "unresolvedByKind": {
+      "spouse": 218,
+      "father": 188,
+      "mother": 152,
+      "child": 488
+    },
+    "unresolvedReasons": {
+      "no_fuzzy": 701,
+      "fuzzy_ambiguous": 291,
+      "ambiguous": 43,
+      "too_short": 5,
+      "empty_or_unknown": 6
+    }
+  },
+  "sampleUnresolvedBeforePlaceholder": [
+    {
+      "sourceRow": 17,
+      "sourceName": "Trần Đức Bằng",
+      "kind": "spouse",
+      "targetName": "Bà1 Dương Thị Nụ,  Bà2",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 53,
+      "sourceName": "Trần Thu Cúc",
+      "kind": "spouse",
+      "targetName": "Dương Thế Sơn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 60,
+      "sourceName": "Nghiêm Thị Tâm",
+      "kind": "father",
+      "targetName": "Nghiêm Xuân Hạnh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 60,
+      "sourceName": "Nghiêm Thị Tâm",
+      "kind": "mother",
+      "targetName": "Nguyễn Thị Bỉnh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            217,
+            1.383,
+            0.933,
+            "Nguyễn Thị Sinh"
+          ],
+          [
+            266,
+            1.317,
+            0.867,
+            "Nguyễn Thị Liên"
+          ],
+          [
+            560,
+            1.317,
+            0.867,
+            "Nguyễn Thị Hanh"
+          ],
+          [
+            327,
+            1.307,
+            0.857,
+            "Nguyễn Thị Hà"
+          ],
+          [
+            643,
+            1.307,
+            0.857,
+            "Nguyễn Thị An"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 62,
+      "sourceName": "Phạm Thị Tố Quyên",
+      "kind": "father",
+      "targetName": "Phạm Minh Đức",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 67,
+      "sourceName": "Trần Thị Hiền",
+      "kind": "spouse",
+      "targetName": "Nguyễn Quý Hùng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 67,
+      "sourceName": "Trần Thị Hiền",
+      "kind": "child",
+      "targetName": "Nguyễn Thị Thuỷ",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            478,
+            -2
+          ],
+          [
+            337,
+            -4
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 68,
+      "sourceName": "Trần Thị Thanh",
+      "kind": "child",
+      "targetName": "Nguyễn Thị Diệu Linh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            208,
+            1.122,
+            0.872,
+            "Nguyễn Thị Gia Linh"
+          ],
+          [
+            862,
+            1.107,
+            0.857,
+            "Nguyễn Thị Linh"
+          ],
+          [
+            882,
+            0.757,
+            0.857,
+            "Nguyễn Thị Diên"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 68,
+      "sourceName": "Trần Thị Thanh",
+      "kind": "child",
+      "targetName": "Nguyễn Thị Thuỳ Linh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            862,
+            1.107,
+            0.857,
+            "Nguyễn Thị Linh"
+          ],
+          [
+            478,
+            0.757,
+            0.857,
+            "Nguyễn Thị Thủy"
+          ],
+          [
+            982,
+            0.689,
+            0.889,
+            "Nguyễn Thị Thịnh"
+          ],
+          [
+            337,
+            0.657,
+            0.857,
+            "Nguyễn Thị Thuỷ"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 69,
+      "sourceName": "Trần Thị Nhung",
+      "kind": "spouse",
+      "targetName": "Nguyễn Văn Kha",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 69,
+      "sourceName": "Trần Thị Nhung",
+      "kind": "child",
+      "targetName": "Nguyễn Gia Khánh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 72,
+      "sourceName": "Trần Thị Phương",
+      "kind": "father",
+      "targetName": "Trần Như Khiêu",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            78,
+            1.007,
+            0.857,
+            "Trần Minh Hiếu"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 72,
+      "sourceName": "Trần Thị Phương",
+      "kind": "mother",
+      "targetName": "Nguyễn Thị Tín",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            706,
+            1.807,
+            0.857,
+            "Nguyễn Thị Sen"
+          ],
+          [
+            16,
+            1.407,
+            0.857,
+            "Nguyễn Thị Căn"
+          ],
+          [
+            110,
+            1.407,
+            0.857,
+            "Nguyễn Thị Sen"
+          ],
+          [
+            794,
+            1.379,
+            0.929,
+            "Nguyễn Thị Thị"
+          ],
+          [
+            832,
+            1.347,
+            0.897,
+            "Nguyễn Thị Thái"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 73,
+      "sourceName": "Trần Đức Dũng",
+      "kind": "child",
+      "targetName": "Trần Đức Anh Tuấn",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            75,
+            1.967,
+            0.867,
+            "Trần Anh Tuấn"
+          ],
+          [
+            22,
+            1.217,
+            0.867,
+            "Trần Đức Tuấn"
+          ],
+          [
+            220,
+            1.117,
+            0.867,
+            "Trần Đức Tuân"
+          ],
+          [
+            885,
+            1.117,
+            0.867,
+            "Trần Đức Tuấn"
+          ],
+          [
+            129,
+            0.867,
+            0.867,
+            "Trần Đức Tuấn"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 74,
+      "sourceName": "Phạm Thị Thu",
+      "kind": "father",
+      "targetName": "Phạm Văn Tuệ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 74,
+      "sourceName": "Phạm Thị Thu",
+      "kind": "mother",
+      "targetName": "Phạm Thị Bích",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 76,
+      "sourceName": "Đỗ Thị Chi",
+      "kind": "father",
+      "targetName": "Đỗ Quang Ngãi",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 76,
+      "sourceName": "Đỗ Thị Chi",
+      "kind": "mother",
+      "targetName": "Ninh Thị Sáu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 80,
+      "sourceName": "Nguyễn Thuỳ Trang",
+      "kind": "father",
+      "targetName": "Nguyễn Hữu Hùng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 83,
+      "sourceName": "Trần Thị Mai Hương",
+      "kind": "spouse",
+      "targetName": "Nguyễn Văn Đông",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 83,
+      "sourceName": "Trần Thị Mai Hương",
+      "kind": "child",
+      "targetName": "Nguyễn Nhật Quang",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 83,
+      "sourceName": "Trần Thị Mai Hương",
+      "kind": "child",
+      "targetName": "Nguyễn Quang Minh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 86,
+      "sourceName": "Trần Đức Tề",
+      "kind": "spouse",
+      "targetName": "Bà1 Lấm,  Bà2 Nhỡn, Bà3 Sen, Bà4 Huê",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 86,
+      "sourceName": "Trần Đức Tề",
+      "kind": "child",
+      "targetName": "Trần Đức Chịnh",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            319,
+            0
+          ],
+          [
+            432,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 86,
+      "sourceName": "Trần Đức Tề",
+      "kind": "child",
+      "targetName": "Trần Thị Hợp, Hiến",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            685,
+            0.857,
+            0.857,
+            "Trần Thị Thu Hiền"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 87,
+      "sourceName": "Đoàn Thị Lấm",
+      "kind": "child",
+      "targetName": "Trần Đức Chịnh",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            319,
+            0
+          ],
+          [
+            432,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 88,
+      "sourceName": "Trần Thị Trà",
+      "kind": "spouse",
+      "targetName": "Bùi Thế Bưu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 88,
+      "sourceName": "Trần Thị Trà",
+      "kind": "child",
+      "targetName": "Bùi Thế Ất",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 88,
+      "sourceName": "Trần Thị Trà",
+      "kind": "child",
+      "targetName": "Bùi Thế Tấn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 93,
+      "sourceName": "Trần Hương Giang",
+      "kind": "spouse",
+      "targetName": "Vinh",
+      "meta": {
+        "reason": "too_short"
+      }
+    },
+    {
+      "sourceRow": 95,
+      "sourceName": "Trần Thị Mùi",
+      "kind": "spouse",
+      "targetName": "Đoàn Văn Ngọc",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 95,
+      "sourceName": "Trần Thị Mùi",
+      "kind": "child",
+      "targetName": "Đoàn Long Vũ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 96,
+      "sourceName": "Trần Thị Nhâm",
+      "kind": "spouse",
+      "targetName": "Nông Văn Lương",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 96,
+      "sourceName": "Trần Thị Nhâm",
+      "kind": "child",
+      "targetName": "Nông Quốc Anh Hào",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 98,
+      "sourceName": "Tô Thị Lan Anh",
+      "kind": "father",
+      "targetName": "Tô Xuân Bằng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 98,
+      "sourceName": "Tô Thị Lan Anh",
+      "kind": "mother",
+      "targetName": "Vũ Thị Gấm",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 102,
+      "sourceName": "Nguyễn Thị Nhuần",
+      "kind": "father",
+      "targetName": "Nguyễn Sỹ Thường",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 102,
+      "sourceName": "Nguyễn Thị Nhuần",
+      "kind": "mother",
+      "targetName": "Lê Thị Tiếu",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            51,
+            0.957,
+            0.857,
+            "Lê Thị Thu"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 103,
+      "sourceName": "Trần Thị Xoa",
+      "kind": "child",
+      "targetName": "Đào Gia Phan",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 104,
+      "sourceName": "Trần Thị Xuê",
+      "kind": "spouse",
+      "targetName": "Nguyễn Quang Toàn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 105,
+      "sourceName": "Trần Thị Phượng",
+      "kind": "spouse",
+      "targetName": "Trần Danh Lanh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 106,
+      "sourceName": "Trần Thị Trạnh",
+      "kind": "spouse",
+      "targetName": "Đào Duy Hãn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 106,
+      "sourceName": "Trần Thị Trạnh",
+      "kind": "child",
+      "targetName": "Đào Thị Huệ",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            992,
+            0.657,
+            0.857,
+            "Đào Thị Tú"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 106,
+      "sourceName": "Trần Thị Trạnh",
+      "kind": "child",
+      "targetName": "Đào Duy Hữu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 108,
+      "sourceName": "Trần Thị Hảo",
+      "kind": "spouse",
+      "targetName": "Thống",
+      "meta": {
+        "reason": "too_short"
+      }
+    },
+    {
+      "sourceRow": 109,
+      "sourceName": "Trần Thị Cắt",
+      "kind": "spouse",
+      "targetName": "Chuộc",
+      "meta": {
+        "reason": "too_short"
+      }
+    },
+    {
+      "sourceRow": 113,
+      "sourceName": "Trần Thị Hợp",
+      "kind": "spouse",
+      "targetName": "Lê Văn Huấn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 113,
+      "sourceName": "Trần Thị Hợp",
+      "kind": "child",
+      "targetName": "Lê Thị Hoa",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            684,
+            1.202,
+            0.952,
+            "Lê Thị Hoàn"
+          ],
+          [
+            750,
+            1.197,
+            0.947,
+            "Lê Thị Hà"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 113,
+      "sourceName": "Trần Thị Hợp",
+      "kind": "child",
+      "targetName": "Lê Anh Dũng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 113,
+      "sourceName": "Trần Thị Hợp",
+      "kind": "child",
+      "targetName": "Lê Thị Hồng",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            684,
+            1.159,
+            0.909,
+            "Lê Thị Hoàn"
+          ],
+          [
+            573,
+            0.77,
+            0.87,
+            "Lê Thị Nhung"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 114,
+      "sourceName": "Trần Thị Hiến",
+      "kind": "spouse",
+      "targetName": "Trần Thế Vinh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            340,
+            1.046,
+            0.846,
+            "Trần Thị Bình"
+          ],
+          [
+            699,
+            1.046,
+            0.846,
+            "Trần Thị Lĩnh"
+          ],
+          [
+            27,
+            0.996,
+            0.846,
+            "Trần Thị Ninh"
+          ],
+          [
+            177,
+            0.896,
+            0.846,
+            "Trần Thị Bính"
+          ],
+          [
+            289,
+            0.896,
+            0.846,
+            "Trần Thị Linh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 114,
+      "sourceName": "Trần Thị Hiến",
+      "kind": "child",
+      "targetName": "Trần Thanh Quang",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            253,
+            1.117,
+            0.867,
+            "Trần Thanh Quý"
+          ],
+          [
+            355,
+            0.897,
+            0.897,
+            "Trần Thanh An"
+          ],
+          [
+            310,
+            0.867,
+            0.867,
+            "Trần Mạnh Quân"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 116,
+      "sourceName": "Hoàng Thị Hằng",
+      "kind": "father",
+      "targetName": "Hoàng Văn Sình",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 116,
+      "sourceName": "Hoàng Thị Hằng",
+      "kind": "mother",
+      "targetName": "Trần Thị Phùi",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            631,
+            1.33,
+            0.88,
+            "Trần Thị Thu"
+          ],
+          [
+            704,
+            1.33,
+            0.88,
+            "Trần Thị Thư"
+          ],
+          [
+            967,
+            1.33,
+            0.88,
+            "Trần Thị Hồi"
+          ],
+          [
+            292,
+            1.296,
+            0.846,
+            "Trần Thị Nghi"
+          ],
+          [
+            436,
+            1.296,
+            0.846,
+            "Trần Thị Khái"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 117,
+      "sourceName": "Trần Thu Hương",
+      "kind": "spouse",
+      "targetName": "Nguyễn Công Hoà",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 117,
+      "sourceName": "Trần Thu Hương",
+      "kind": "child",
+      "targetName": "Nguyễn Công Hoàn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 117,
+      "sourceName": "Trần Thu Hương",
+      "kind": "child",
+      "targetName": "Nguyễn Trần Hà Ngân",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 119,
+      "sourceName": "Nguyễn Thị Hồng Hậu",
+      "kind": "mother",
+      "targetName": "Nguyễn Thị Lạng",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            25,
+            1.417,
+            0.867,
+            "Nguyễn Thị Hồng"
+          ],
+          [
+            814,
+            1.416,
+            0.966,
+            "Nguyễn Thị Lan"
+          ],
+          [
+            643,
+            1.379,
+            0.929,
+            "Nguyễn Thị An"
+          ],
+          [
+            251,
+            1.347,
+            0.897,
+            "Nguyễn Thị Cân"
+          ],
+          [
+            266,
+            1.317,
+            0.867,
+            "Nguyễn Thị Liên"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 165,
+      "sourceName": "Trần Đức Tinh",
+      "kind": "spouse",
+      "targetName": "Bà cả….Bà 2 Bạch Thị Thệ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 167,
+      "sourceName": "Trần Đức Tú",
+      "kind": "child",
+      "targetName": "Trần Đức Tứ",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            167,
+            1
+          ],
+          [
+            23,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 167,
+      "sourceName": "Trần Đức Tú",
+      "kind": "child",
+      "targetName": "Cụ Lang Ba",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 168,
+      "sourceName": "Đoàn Thị Sáu",
+      "kind": "child",
+      "targetName": "Trần Đức Tứ",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            167,
+            1
+          ],
+          [
+            23,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 168,
+      "sourceName": "Đoàn Thị Sáu",
+      "kind": "child",
+      "targetName": "Cụ Lang Ba",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 169,
+      "sourceName": "Trần Thị Lan",
+      "kind": "spouse",
+      "targetName": "Cụ Đội Khoai",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 169,
+      "sourceName": "Trần Thị Lan",
+      "kind": "child",
+      "targetName": "Cháu nội là cụ Hậu,",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 169,
+      "sourceName": "Trần Thị Lan",
+      "kind": "child",
+      "targetName": "Cháu nội là cụ Hường",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 170,
+      "sourceName": "Trần Đức Mỹ",
+      "kind": "child",
+      "targetName": "Trần Thị",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            211,
+            0.942,
+            0.842,
+            "Trần Thị Lý"
+          ],
+          [
+            233,
+            0.942,
+            0.842,
+            "Trần Thị Dụ"
+          ],
+          [
+            245,
+            0.942,
+            0.842,
+            "Trần Thị Tỷ"
+          ],
+          [
+            342,
+            0.942,
+            0.842,
+            "Trần Thị Kỷ"
+          ],
+          [
+            344,
+            0.942,
+            0.842,
+            "Trần Thị Du"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 171,
+      "sourceName": "Nguyễn Thị Gõn",
+      "kind": "child",
+      "targetName": "Trần Thị",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            211,
+            0.942,
+            0.842,
+            "Trần Thị Lý"
+          ],
+          [
+            233,
+            0.942,
+            0.842,
+            "Trần Thị Dụ"
+          ],
+          [
+            245,
+            0.942,
+            0.842,
+            "Trần Thị Tỷ"
+          ],
+          [
+            342,
+            0.942,
+            0.842,
+            "Trần Thị Kỷ"
+          ],
+          [
+            344,
+            0.942,
+            0.842,
+            "Trần Thị Du"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 172,
+      "sourceName": "Trần Đức Chứ",
+      "kind": "child",
+      "targetName": "Trần Đức Linh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            404,
+            1.973,
+            0.923,
+            "Trần Đức Ninh"
+          ],
+          [
+            174,
+            1.946,
+            0.846,
+            "Trần Đức Tiến"
+          ],
+          [
+            909,
+            1.273,
+            0.923,
+            "Trần Đức Đính"
+          ],
+          [
+            849,
+            1.196,
+            0.846,
+            "Trần Đức Viên"
+          ],
+          [
+            1038,
+            1.173,
+            0.923,
+            "Trần Đức Vinh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 173,
+      "sourceName": "Trần Thị Cải",
+      "kind": "father",
+      "targetName": "Trần Thế Hạch",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            732,
+            0.789,
+            0.889,
+            "Trần Thị Thạch"
+          ],
+          [
+            407,
+            0.746,
+            0.846,
+            "Trần Thị Hạnh"
+          ],
+          [
+            978,
+            0.646,
+            0.846,
+            "Trần Thị Hạnh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 173,
+      "sourceName": "Trần Thị Cải",
+      "kind": "mother",
+      "targetName": "Đặng Thị Tũn",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            294,
+            0.97,
+            0.87,
+            "Đặng Thị An"
+          ],
+          [
+            681,
+            0.946,
+            0.846,
+            "Đặng Thị Quyền"
+          ],
+          [
+            688,
+            0.946,
+            0.846,
+            "Đặng Thị Trang"
+          ],
+          [
+            1041,
+            0.846,
+            0.846,
+            "Đặng Thị Thuật"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 173,
+      "sourceName": "Trần Thị Cải",
+      "kind": "child",
+      "targetName": "Trần Đức Linh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            404,
+            1.973,
+            0.923,
+            "Trần Đức Ninh"
+          ],
+          [
+            174,
+            1.946,
+            0.846,
+            "Trần Đức Tiến"
+          ],
+          [
+            909,
+            1.273,
+            0.923,
+            "Trần Đức Đính"
+          ],
+          [
+            849,
+            1.196,
+            0.846,
+            "Trần Đức Viên"
+          ],
+          [
+            1038,
+            1.173,
+            0.923,
+            "Trần Đức Vinh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 174,
+      "sourceName": "Trần Đức Tiến",
+      "kind": "spouse",
+      "targetName": "Bà 1 Trần Thị Cật, Bà 2 Vũ Thị Búng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "spouse",
+      "targetName": "Đoàn Văn Khai",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "child",
+      "targetName": "Đoàn Thị Thắng",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            135,
+            0.846,
+            0.846,
+            "Đoàn Thị Hoà"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "child",
+      "targetName": "Đoàn Thị Sức",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            168,
+            0.867,
+            0.917,
+            "Đoàn Thị Sáu"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "child",
+      "targetName": "Đoàn Thị Hạt",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            135,
+            0.917,
+            0.917,
+            "Đoàn Thị Hoà"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "child",
+      "targetName": "Đoàn Thị Quê",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "child",
+      "targetName": "Đoàn Thị Hương",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            1017,
+            1.179,
+            0.929,
+            "Đoàn Thị Lương"
+          ],
+          [
+            135,
+            0.846,
+            0.846,
+            "Đoàn Thị Hoà"
+          ],
+          [
+            556,
+            0.746,
+            0.846,
+            "Đoàn Thị Son"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 178,
+      "sourceName": "Trần Thị Xuân",
+      "kind": "child",
+      "targetName": "Đoàn Văn Kết",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 179,
+      "sourceName": "Trần Đức Tình",
+      "kind": "spouse",
+      "targetName": "Trần Thị Thật",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            541,
+            1.389,
+            0.889,
+            "Trần Thị Thắng"
+          ],
+          [
+            243,
+            1.38,
+            0.88,
+            "Trần Thị Dật"
+          ],
+          [
+            372,
+            1.38,
+            0.88,
+            "Trần Thị Tài"
+          ],
+          [
+            631,
+            1.38,
+            0.88,
+            "Trần Thị Thu"
+          ],
+          [
+            704,
+            1.38,
+            0.88,
+            "Trần Thị Thư"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 180,
+      "sourceName": "Trần Đức Mậu",
+      "kind": "spouse",
+      "targetName": "Bà 1 Nguyễn Thị Giãng, Bà 2 Vũ Thị Siêu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 180,
+      "sourceName": "Trần Đức Mậu",
+      "kind": "child",
+      "targetName": "Trần Thị",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            245,
+            1.692,
+            0.842,
+            "Trần Thị Tỷ"
+          ],
+          [
+            437,
+            1.192,
+            0.842,
+            "Trần Thị Vu"
+          ],
+          [
+            935,
+            1.192,
+            0.842,
+            "Trần Thị Bé"
+          ],
+          [
+            1021,
+            1.092,
+            0.842,
+            "Trần Thị Lý"
+          ],
+          [
+            211,
+            0.942,
+            0.842,
+            "Trần Thị Lý"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 181,
+      "sourceName": "Nguyễn Thị Giãng",
+      "kind": "father",
+      "targetName": "Nguyễn Viết Thành",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            774,
+            0.748,
+            0.848,
+            "Nguyễn Thị Thành"
+          ],
+          [
+            985,
+            0.748,
+            0.848,
+            "Nguyễn Thị Thanh"
+          ],
+          [
+            90,
+            0.648,
+            0.848,
+            "Nguyễn Thị Thanh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 181,
+      "sourceName": "Nguyễn Thị Giãng",
+      "kind": "child",
+      "targetName": "Trần Thị",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            245,
+            1.892,
+            0.842,
+            "Trần Thị Tỷ"
+          ],
+          [
+            437,
+            1.192,
+            0.842,
+            "Trần Thị Vu"
+          ],
+          [
+            935,
+            1.192,
+            0.842,
+            "Trần Thị Bé"
+          ],
+          [
+            1021,
+            1.092,
+            0.842,
+            "Trần Thị Lý"
+          ],
+          [
+            211,
+            0.942,
+            0.842,
+            "Trần Thị Lý"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 182,
+      "sourceName": "Trần Đức Cường",
+      "kind": "spouse",
+      "targetName": "Bà 1 Đặng Thị Sói, Bà 2 Nguyễn Thị Ngân",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 184,
+      "sourceName": "Trần Đức Thận",
+      "kind": "spouse",
+      "targetName": "Bà1 Nguyễn Thị Xuê, Bà 2 Nguyễn Thị Gái",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 186,
+      "sourceName": "Trần Đức Chút",
+      "kind": "child",
+      "targetName": "Trần Thị Thu",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            191,
+            1
+          ],
+          [
+            418,
+            0
+          ],
+          [
+            521,
+            0
+          ],
+          [
+            631,
+            -2
+          ],
+          [
+            704,
+            -2
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 196,
+      "sourceName": "Trần Đức Thuỵ",
+      "kind": "mother",
+      "targetName": "Đựng Thị Sói",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            183,
+            2.317,
+            0.917,
+            "Đặng Thị Sói"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 197,
+      "sourceName": "Trần Thị Hoè",
+      "kind": "mother",
+      "targetName": "Đựng Thị Sói",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            183,
+            2.317,
+            0.917,
+            "Đặng Thị Sói"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 197,
+      "sourceName": "Trần Thị Hoè",
+      "kind": "spouse",
+      "targetName": "Nguyễn Văn Giai",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 197,
+      "sourceName": "Trần Thị Hoè",
+      "kind": "child",
+      "targetName": "Nguyễn Văn Hải",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 197,
+      "sourceName": "Trần Thị Hoè",
+      "kind": "child",
+      "targetName": "Nguyễn Văn Hưng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 197,
+      "sourceName": "Trần Thị Hoè",
+      "kind": "child",
+      "targetName": "Nguyễn Thị",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            516,
+            1.22,
+            0.87,
+            "Nguyễn Thị Hà"
+          ],
+          [
+            889,
+            1.22,
+            0.87,
+            "Nguyễn Thị Nụ"
+          ],
+          [
+            146,
+            1.12,
+            0.87,
+            "Nguyễn Thị Ca"
+          ],
+          [
+            327,
+            0.87,
+            0.87,
+            "Nguyễn Thị Hà"
+          ],
+          [
+            643,
+            0.87,
+            0.87,
+            "Nguyễn Thị An"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 197,
+      "sourceName": "Trần Thị Hoè",
+      "kind": "child",
+      "targetName": "Nguyễn Văn Thuyên",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 198,
+      "sourceName": "Nguyễn Thị Ngân",
+      "kind": "father",
+      "targetName": "Nguyễn Đình Thiệu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 200,
+      "sourceName": "Trần Thị Bằng",
+      "kind": "father",
+      "targetName": "Trần Thế Tý",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            245,
+            1.259,
+            0.909,
+            "Trần Thị Tỷ"
+          ],
+          [
+            28,
+            0.809,
+            0.909,
+            "Trần Thị Tỷ"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 202,
+      "sourceName": "Trần Thị Lan",
+      "kind": "father",
+      "targetName": "Trần Thanh Trường",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 204,
+      "sourceName": "Hoàng Thu Trang",
+      "kind": "father",
+      "targetName": "Hoàng Văn Hợi",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 208,
+      "sourceName": "Nguyễn Thị Gia Linh",
+      "kind": "father",
+      "targetName": "Nguyễn Văn Tuấn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 208,
+      "sourceName": "Nguyễn Thị Gia Linh",
+      "kind": "mother",
+      "targetName": "Hữu Thị Thuỷ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 211,
+      "sourceName": "Trần Thị Lý",
+      "kind": "spouse",
+      "targetName": "Lê Đăng Thiềng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 211,
+      "sourceName": "Trần Thị Lý",
+      "kind": "child",
+      "targetName": "Lê Thị Luân",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            189,
+            0.857,
+            0.857,
+            "Lê Thị Vân"
+          ],
+          [
+            577,
+            0.809,
+            0.909,
+            "Lê Thị Xuân"
+          ],
+          [
+            558,
+            0.8,
+            0.9,
+            "Lê Thị Lư"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 211,
+      "sourceName": "Trần Thị Lý",
+      "kind": "child",
+      "targetName": "Lê Thị Linh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 212,
+      "sourceName": "Trần Thị Hoan",
+      "kind": "spouse",
+      "targetName": "Nguyễn Văn Lan",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 212,
+      "sourceName": "Trần Thị Hoan",
+      "kind": "child",
+      "targetName": "Nguyễn Văn Tùng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 212,
+      "sourceName": "Trần Thị Hoan",
+      "kind": "child",
+      "targetName": "Nguyễn Thị Liên",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            266,
+            -2
+          ],
+          [
+            825,
+            -2
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 213,
+      "sourceName": "Trần Thị Huỳ",
+      "kind": "spouse",
+      "targetName": "Nguyễn Văn Thành",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 213,
+      "sourceName": "Trần Thị Huỳ",
+      "kind": "child",
+      "targetName": "Ng. Thị Vân Anh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            800,
+            0.903,
+            0.903,
+            "Đặng Thị Vân Anh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 213,
+      "sourceName": "Trần Thị Huỳ",
+      "kind": "child",
+      "targetName": "Nguyễn Văn Công",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 214,
+      "sourceName": "Trần Thị Hữu",
+      "kind": "spouse",
+      "targetName": "Đào Duy Vũ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 214,
+      "sourceName": "Trần Thị Hữu",
+      "kind": "child",
+      "targetName": "Đào Thi Tố Mai",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 214,
+      "sourceName": "Trần Thị Hữu",
+      "kind": "child",
+      "targetName": "Đào Thị Trúc",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            992,
+            0.709,
+            0.909,
+            "Đào Thị Tú"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 214,
+      "sourceName": "Trần Thị Hữu",
+      "kind": "child",
+      "targetName": "Đào Duy Phong",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 215,
+      "sourceName": "Trần Thị Huyền",
+      "kind": "spouse",
+      "targetName": "Bùi Thế Việt",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 215,
+      "sourceName": "Trần Thị Huyền",
+      "kind": "child",
+      "targetName": "Bùi Việt Hà",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 215,
+      "sourceName": "Trần Thị Huyền",
+      "kind": "child",
+      "targetName": "Bùi Hà Giang",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 217,
+      "sourceName": "Nguyễn Thị Sinh",
+      "kind": "father",
+      "targetName": "Nguyễn Văn Hỗ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 217,
+      "sourceName": "Nguyễn Thị Sinh",
+      "kind": "mother",
+      "targetName": "Trần Thị Tư",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            631,
+            1.507,
+            0.957,
+            "Trần Thị Thu"
+          ],
+          [
+            704,
+            1.507,
+            0.957,
+            "Trần Thị Thư"
+          ],
+          [
+            934,
+            1.467,
+            0.917,
+            "Trần Thị Thuỷ"
+          ],
+          [
+            245,
+            1.459,
+            0.909,
+            "Trần Thị Tỷ"
+          ],
+          [
+            437,
+            1.459,
+            0.909,
+            "Trần Thị Vu"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 219,
+      "sourceName": "Nguyễn Thị Hoa",
+      "kind": "father",
+      "targetName": "Nguyễn Tiến Dụ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 221,
+      "sourceName": "Triệu Thị Bích Phương",
+      "kind": "father",
+      "targetName": "Triệu Văn Trung",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 221,
+      "sourceName": "Triệu Thị Bích Phương",
+      "kind": "mother",
+      "targetName": "Triệu Thị Dậu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 224,
+      "sourceName": "Trần Thị Huệ",
+      "kind": "child",
+      "targetName": "Ng. Trần Vương An",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 226,
+      "sourceName": "Nguyễn Thị Hạnh",
+      "kind": "father",
+      "targetName": "Trần Văn Bòn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 226,
+      "sourceName": "Nguyễn Thị Hạnh",
+      "kind": "mother",
+      "targetName": "Trần Thị Dậm",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            233,
+            1.47,
+            0.87,
+            "Trần Thị Dụ"
+          ],
+          [
+            493,
+            1.467,
+            0.917,
+            "Trần Thị Tám"
+          ],
+          [
+            692,
+            1.467,
+            0.917,
+            "Trần Thị Gấm"
+          ],
+          [
+            804,
+            1.467,
+            0.917,
+            "Trần Thị Đua"
+          ],
+          [
+            887,
+            1.467,
+            0.917,
+            "Trần Thị Tám"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 231,
+      "sourceName": "Trần Thị Hương",
+      "kind": "spouse",
+      "targetName": "Đỗ Đức Xuân",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 231,
+      "sourceName": "Trần Thị Hương",
+      "kind": "child",
+      "targetName": "Đỗ Minh Quân",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 231,
+      "sourceName": "Trần Thị Hương",
+      "kind": "child",
+      "targetName": "Đỗ Minh Quang",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 233,
+      "sourceName": "Trần Thị Dụ",
+      "kind": "father",
+      "targetName": "Trần Văn Kinh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 234,
+      "sourceName": "Trần Thị Nhiên",
+      "kind": "spouse",
+      "targetName": "Phan Đình Phùng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 234,
+      "sourceName": "Trần Thị Nhiên",
+      "kind": "child",
+      "targetName": "Phan Đình Dũng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 234,
+      "sourceName": "Trần Thị Nhiên",
+      "kind": "child",
+      "targetName": "Phan Thị Ngọc",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 236,
+      "sourceName": "Trần Thị Hồng Hải",
+      "kind": "father",
+      "targetName": "Trần Văn Tường",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 236,
+      "sourceName": "Trần Thị Hồng Hải",
+      "kind": "mother",
+      "targetName": "Đoàn Thị Huỳ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 240,
+      "sourceName": "Nguyễn Thị Phương Thuỳ",
+      "kind": "father",
+      "targetName": "Nguyễn Xuân Thông",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 243,
+      "sourceName": "Trần Thị Dật",
+      "kind": "spouse",
+      "targetName": "Nguyễn Văn Ký",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 243,
+      "sourceName": "Trần Thị Dật",
+      "kind": "child",
+      "targetName": "Nguyễn Thị Hiểu",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            386,
+            1.247,
+            0.897,
+            "Nguyễn Thị Hồi"
+          ],
+          [
+            441,
+            1.247,
+            0.897,
+            "Nguyễn Thị Hải"
+          ],
+          [
+            266,
+            1.217,
+            0.867,
+            "Nguyễn Thị Liên"
+          ],
+          [
+            337,
+            1.217,
+            0.867,
+            "Nguyễn Thị Thuỷ"
+          ],
+          [
+            746,
+            1.217,
+            0.867,
+            "Nguyễn Thị Điệp"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 244,
+      "sourceName": "Trần Thị Bạo",
+      "kind": "spouse",
+      "targetName": "Đặng Danh Chỉnh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 244,
+      "sourceName": "Trần Thị Bạo",
+      "kind": "child",
+      "targetName": "Đặng Thị Chữ",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            731,
+            0.87,
+            0.87,
+            "Đặng Thị Ốc"
+          ],
+          [
+            1003,
+            0.746,
+            0.846,
+            "Đặng Thị Hoạch"
+          ],
+          [
+            1041,
+            0.746,
+            0.846,
+            "Đặng Thị Thuật"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 244,
+      "sourceName": "Trần Thị Bạo",
+      "kind": "child",
+      "targetName": "Đựng Danh Ánh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 245,
+      "sourceName": "Trần Thị Tỷ",
+      "kind": "spouse",
+      "targetName": "Nguyễn Đỗ Khoản",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 245,
+      "sourceName": "Trần Thị Tỷ",
+      "kind": "child",
+      "targetName": "Đỗ Đức Dục",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 245,
+      "sourceName": "Trần Thị Tỷ",
+      "kind": "child",
+      "targetName": "Nguyễn Đỗ Tuấn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 245,
+      "sourceName": "Trần Thị Tỷ",
+      "kind": "child",
+      "targetName": "Đỗ Thị Lan",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            565,
+            1.207,
+            0.857,
+            "Đỗ Thị Xuân"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 246,
+      "sourceName": "Trần Đức Tráng",
+      "kind": "spouse",
+      "targetName": "Bà1 Đoàn Thị Loãn, Bà 2 Nguyễn Thị Lợi",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 247,
+      "sourceName": "Đoàn Thị Loãn",
+      "kind": "father",
+      "targetName": "Đoàn Công Hỗ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 247,
+      "sourceName": "Đoàn Thị Loãn",
+      "kind": "mother",
+      "targetName": "Nguyễn Thị",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            910,
+            1.42,
+            0.87,
+            "Nguyễn Thị Tý"
+          ],
+          [
+            1001,
+            1.32,
+            0.87,
+            "Nguyễn Thị Ẩm"
+          ],
+          [
+            327,
+            0.97,
+            0.87,
+            "Nguyễn Thị Hà"
+          ],
+          [
+            516,
+            0.97,
+            0.87,
+            "Nguyễn Thị Hà"
+          ],
+          [
+            643,
+            0.97,
+            0.87,
+            "Nguyễn Thị An"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 248,
+      "sourceName": "Trần Thị Hoán",
+      "kind": "spouse",
+      "targetName": "Đặng Danh Tính",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 248,
+      "sourceName": "Trần Thị Hoán",
+      "kind": "child",
+      "targetName": "Đặng Thị Hải",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            977,
+            0.88,
+            0.88,
+            "Đặng Thị Hiển"
+          ],
+          [
+            294,
+            0.87,
+            0.87,
+            "Đặng Thị An"
+          ],
+          [
+            593,
+            0.78,
+            0.88,
+            "Đặng Thị Nhẫn"
+          ],
+          [
+            1003,
+            0.646,
+            0.846,
+            "Đặng Thị Hoạch"
+          ],
+          [
+            1041,
+            0.646,
+            0.846,
+            "Đặng Thị Thuật"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 248,
+      "sourceName": "Trần Thị Hoán",
+      "kind": "child",
+      "targetName": "Đựng Thị Hợp",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 248,
+      "sourceName": "Trần Thị Hoán",
+      "kind": "child",
+      "targetName": "Đặng Danh Hưng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 248,
+      "sourceName": "Trần Thị Hoán",
+      "kind": "child",
+      "targetName": "Đặng Danh Hạnh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 248,
+      "sourceName": "Trần Thị Hoán",
+      "kind": "child",
+      "targetName": "Đặng Danh Huân",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 249,
+      "sourceName": "Trần Thị Soạn",
+      "kind": "spouse",
+      "targetName": "Trần Thế Sở",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 249,
+      "sourceName": "Trần Thị Soạn",
+      "kind": "child",
+      "targetName": "Trần Thị Sứ",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            257,
+            1.27,
+            0.87,
+            "Trần Thị Mùi"
+          ],
+          [
+            191,
+            1.22,
+            0.87,
+            "Trần Thị Thu"
+          ],
+          [
+            213,
+            1.22,
+            0.87,
+            "Trần Thị Huỳ"
+          ],
+          [
+            214,
+            1.22,
+            0.87,
+            "Trần Thị Hữu"
+          ],
+          [
+            418,
+            1.22,
+            0.87,
+            "Trần Thị Thu"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 249,
+      "sourceName": "Trần Thị Soạn",
+      "kind": "child",
+      "targetName": "Trần Thế Sự",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            37,
+            0.67,
+            0.87,
+            "Trần Thị Sâu"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 249,
+      "sourceName": "Trần Thị Soạn",
+      "kind": "child",
+      "targetName": "Trần Thế Quân",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            178,
+            0.746,
+            0.846,
+            "Trần Thị Xuân"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 250,
+      "sourceName": "Trần Đức Ngọc",
+      "kind": "child",
+      "targetName": "Trần Đức Quý",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            269,
+            3
+          ],
+          [
+            428,
+            2
+          ],
+          [
+            371,
+            -2
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 251,
+      "sourceName": "Nguyễn Thị Cân",
+      "kind": "father",
+      "targetName": "Nguyễn Trọng Khái",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 251,
+      "sourceName": "Nguyễn Thị Cân",
+      "kind": "child",
+      "targetName": "Trần Đức Quý",
+      "meta": {
+        "reason": "ambiguous",
+        "scores": [
+          [
+            269,
+            3
+          ],
+          [
+            428,
+            2
+          ],
+          [
+            371,
+            -2
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 252,
+      "sourceName": "Trần Thị Thuý",
+      "kind": "child",
+      "targetName": "Nguyễn VănThao",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 254,
+      "sourceName": "Nguyễn Thị Thanh Ngoan",
+      "kind": "father",
+      "targetName": "Nguyễn Văn Tập",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 254,
+      "sourceName": "Nguyễn Thị Thanh Ngoan",
+      "kind": "mother",
+      "targetName": "Nguyễn Thị Lộc",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            251,
+            1.457,
+            0.857,
+            "Nguyễn Thị Cân"
+          ],
+          [
+            352,
+            1.417,
+            0.867,
+            "Nguyễn Thị Thước"
+          ],
+          [
+            386,
+            1.407,
+            0.857,
+            "Nguyễn Thị Hồi"
+          ],
+          [
+            734,
+            1.407,
+            0.857,
+            "Nguyễn Thị Đắc"
+          ],
+          [
+            753,
+            1.407,
+            0.857,
+            "Nguyễn Thị Đào"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 257,
+      "sourceName": "Trần Thị Mùi",
+      "kind": "spouse",
+      "targetName": "Hoàng Công Ngọc",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 257,
+      "sourceName": "Trần Thị Mùi",
+      "kind": "child",
+      "targetName": "Hoàng Thị Hương",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            713,
+            0.797,
+            0.897,
+            "Hoàng Thị Mừng"
+          ],
+          [
+            116,
+            0.697,
+            0.897,
+            "Hoàng Thị Hằng"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 257,
+      "sourceName": "Trần Thị Mùi",
+      "kind": "child",
+      "targetName": "Hoàng Công Khuê",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 258,
+      "sourceName": "Trần Thị Hiên",
+      "kind": "spouse",
+      "targetName": "Đào Duy Quân",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 258,
+      "sourceName": "Trần Thị Hiên",
+      "kind": "child",
+      "targetName": "Đào Ngọc Huyền",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 258,
+      "sourceName": "Trần Thị Hiên",
+      "kind": "child",
+      "targetName": "Đào Tùng Lâm",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 261,
+      "sourceName": "Trần Thị Khoa",
+      "kind": "father",
+      "targetName": "Trần Đình Phụ",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 261,
+      "sourceName": "Trần Thị Khoa",
+      "kind": "mother",
+      "targetName": "Trần Thị Bẩy",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            342,
+            1.42,
+            0.87,
+            "Trần Thị Kỷ"
+          ],
+          [
+            244,
+            1.167,
+            0.917,
+            "Trần Thị Bạo"
+          ],
+          [
+            245,
+            1.12,
+            0.87,
+            "Trần Thị Tỷ"
+          ],
+          [
+            346,
+            1.117,
+            0.917,
+            "Trần Thị Bào"
+          ],
+          [
+            401,
+            1.117,
+            0.917,
+            "Trần Thị Bài"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 262,
+      "sourceName": "Trần Thị Khiết",
+      "kind": "spouse",
+      "targetName": "Trần Thế Sung",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            818,
+            1.146,
+            0.846,
+            "Trần Thị Dung"
+          ],
+          [
+            417,
+            0.996,
+            0.846,
+            "Trần Thị Dung"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 262,
+      "sourceName": "Trần Thị Khiết",
+      "kind": "child",
+      "targetName": "Trần Thế Dương",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            737,
+            1.279,
+            0.929,
+            "Trần Thị Dương"
+          ],
+          [
+            927,
+            1.279,
+            0.929,
+            "Trần Thị Dương"
+          ],
+          [
+            417,
+            1.239,
+            0.889,
+            "Trần Thị Dung"
+          ],
+          [
+            231,
+            1.207,
+            0.857,
+            "Trần Thị Hương"
+          ],
+          [
+            387,
+            1.207,
+            0.857,
+            "Trần Thị Hương"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 262,
+      "sourceName": "Trần Thị Khiết",
+      "kind": "child",
+      "targetName": "Trần Thị Len",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            258,
+            1.28,
+            0.88,
+            "Trần Thị Hiên"
+          ],
+          [
+            527,
+            1.273,
+            0.923,
+            "Trần Thị Luyến"
+          ],
+          [
+            202,
+            1.267,
+            0.917,
+            "Trần Thị Lan"
+          ],
+          [
+            442,
+            1.267,
+            0.917,
+            "Trần Thị Yến"
+          ],
+          [
+            807,
+            1.267,
+            0.917,
+            "Trần Thị Yến"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 264,
+      "sourceName": "Trần Thị Văn",
+      "kind": "spouse",
+      "targetName": "Trần Văn Thịnh",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 264,
+      "sourceName": "Trần Thị Văn",
+      "kind": "child",
+      "targetName": "Trần Văn Hải",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 266,
+      "sourceName": "Nguyễn Thị Liên",
+      "kind": "father",
+      "targetName": "Nguyễn Khắc Kiểm",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 266,
+      "sourceName": "Nguyễn Thị Liên",
+      "kind": "mother",
+      "targetName": "Đặng Thị Sang",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            593,
+            1.146,
+            0.846,
+            "Đặng Thị Nhẫn"
+          ],
+          [
+            294,
+            1.117,
+            0.917,
+            "Đặng Thị An"
+          ],
+          [
+            411,
+            1.046,
+            0.846,
+            "Đặng Thị Ngâm"
+          ],
+          [
+            688,
+            0.989,
+            0.889,
+            "Đặng Thị Trang"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 268,
+      "sourceName": "Nguyễn Thị Nga",
+      "kind": "father",
+      "targetName": "Nguyễn Viết Tuấn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 272,
+      "sourceName": "Nguyễn Thị Phương",
+      "kind": "father",
+      "targetName": "Nguyễn Văn Hải",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 276,
+      "sourceName": "Nguyễn Thị Xuân",
+      "kind": "father",
+      "targetName": "Nguyễn Văn Bảng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 278,
+      "sourceName": "Vũ Thị Bắc",
+      "kind": "father",
+      "targetName": "Vũ Văn Triển",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 282,
+      "sourceName": "Vũ Thuỳ Dung",
+      "kind": "father",
+      "targetName": "Hoàng Ngọc Biên",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 282,
+      "sourceName": "Vũ Thuỳ Dung",
+      "kind": "mother",
+      "targetName": "Vũ Thị Hải",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            526,
+            1.407,
+            0.857,
+            "Vũ Thị Phao"
+          ],
+          [
+            727,
+            1.407,
+            0.857,
+            "Vũ Thị Thảo"
+          ],
+          [
+            776,
+            1.407,
+            0.857,
+            "Vũ Thị Thảo"
+          ],
+          [
+            627,
+            1.157,
+            0.857,
+            "Vũ Thị Hiên"
+          ],
+          [
+            6,
+            1.1,
+            0.9,
+            "Vũ Thị Chỉ"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 286,
+      "sourceName": "Trần Thị Hoa",
+      "kind": "father",
+      "targetName": "Trần Văn Chấp",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 286,
+      "sourceName": "Trần Thị Hoa",
+      "kind": "mother",
+      "targetName": "Trần Thị Nội",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            292,
+            1.48,
+            0.88,
+            "Trần Thị Nghi"
+          ],
+          [
+            538,
+            1.43,
+            0.88,
+            "Trần Thị Nghi"
+          ],
+          [
+            846,
+            1.43,
+            0.88,
+            "Trần Thị Ngọc"
+          ],
+          [
+            967,
+            1.367,
+            0.917,
+            "Trần Thị Hồi"
+          ],
+          [
+            341,
+            1.08,
+            0.88,
+            "Trần Thị Mười"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 287,
+      "sourceName": "Trần Thị Thơm",
+      "kind": "spouse",
+      "targetName": "Lê Công Nghĩa",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 287,
+      "sourceName": "Trần Thị Thơm",
+      "kind": "child",
+      "targetName": "Lê Thị Ánh Dương",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            573,
+            0.757,
+            0.857,
+            "Lê Thị Nhung"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 287,
+      "sourceName": "Trần Thị Thơm",
+      "kind": "child",
+      "targetName": "Lê Thị Ánh Vy",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 288,
+      "sourceName": "Trần Thị Ngát",
+      "kind": "spouse",
+      "targetName": "Lưu Quốc Toàn",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 288,
+      "sourceName": "Trần Thị Ngát",
+      "kind": "child",
+      "targetName": "Lưu Trần Tuệ Nhi",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 292,
+      "sourceName": "Trần Thị Nghi",
+      "kind": "father",
+      "targetName": "Trần Thế Sửu",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 292,
+      "sourceName": "Trần Thị Nghi",
+      "kind": "mother",
+      "targetName": "Trần Thị Suý",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            342,
+            1.42,
+            0.87,
+            "Trần Thị Kỷ"
+          ],
+          [
+            344,
+            1.42,
+            0.87,
+            "Trần Thị Du"
+          ],
+          [
+            400,
+            1.117,
+            0.917,
+            "Trần Thị Quỳ"
+          ],
+          [
+            934,
+            1.08,
+            0.88,
+            "Trần Thị Thuỷ"
+          ],
+          [
+            245,
+            1.07,
+            0.87,
+            "Trần Thị Tỷ"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 294,
+      "sourceName": "Đặng Thị An",
+      "kind": "father",
+      "targetName": "Đặng Danh Tùng",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 294,
+      "sourceName": "Đặng Thị An",
+      "kind": "mother",
+      "targetName": "Đỗ Thị Bính",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            586,
+            1.42,
+            0.87,
+            "Đỗ Thị Phinh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 296,
+      "sourceName": "Nguyễn Thị Thu Hằng",
+      "kind": "father",
+      "targetName": "Nguyễn Ngọc Lai",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 296,
+      "sourceName": "Nguyễn Thị Thu Hằng",
+      "kind": "mother",
+      "targetName": "Trịnh Thị Hồng Phú",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 299,
+      "sourceName": "Trần Thị Vân Anh",
+      "kind": "spouse",
+      "targetName": "Trần Văn Mạnh",
+      "meta": {
+        "reason": "fuzzy_ambiguous",
+        "matches": [
+          [
+            359,
+            1.346,
+            0.846,
+            "Trần Tuấn Anh"
+          ]
+        ]
+      }
+    },
+    {
+      "sourceRow": 299,
+      "sourceName": "Trần Thị Vân Anh",
+      "kind": "child",
+      "targetName": "Trần Trung Tá",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    },
+    {
+      "sourceRow": 299,
+      "sourceName": "Trần Thị Vân Anh",
+      "kind": "child",
+      "targetName": "Trần Trung Việt",
+      "meta": {
+        "reason": "no_fuzzy"
+      }
+    }
+  ]
+}
